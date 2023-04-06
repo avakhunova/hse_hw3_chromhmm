@@ -1,5 +1,5 @@
 # hse_hw3_chromhmm
-## Гистоновые Метки
+## Гистоновые метки из UCSC
 Name | File
 --- | ---
 H3K4me2 | wgEncodeBroadHistoneA549H3k04me2Dex100nmAlnRep1.bam
@@ -14,7 +14,7 @@ H3K4me3 | wgEncodeBroadHistoneA549H3k04me3Dex100nmAlnRep1.bam
 H3K27me3 | wgEncodeBroadHistoneA549H3k27me3Dex100nmAlnRep1.bam
 
 
-## cellmarkfiletable.txt
+## таблица из колаба
 
 Клеточная линия | Гистоновая метка | Файл с гистоновой меткой | Файл с контролем
 --- | --- | --- | ---
@@ -30,7 +30,7 @@ A549 | H3K4me3 | H3K4me3.bam | A549Control.bam
 A549 | H3K27me3 | H3K27me3.bam | A549Control.bam
 
 
-## ChromHMM
+## Скрины ChromHMM
 
 Emission | Overlap | Transition 
  --- | --- | ---
@@ -41,7 +41,7 @@ RefSeqTES | RefSeqTSS
 ![Image](/data/A549_15_RefSeqTES_neighborhood.png) | ![Image](/data/A549_15_RefSeqTSS_neighborhood.png)
 
 
-## Эпигенетические типы
+## Придумка названий
 № | Название | Объяснение | Скрин
  --- | --- | ---| ---
 1 | Active Promoter | </li><li> Попадает на интрон или экзон </li> | ![Image](/data/state_1.png)
