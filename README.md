@@ -42,21 +42,25 @@ RefSeqTES | RefSeqTSS
 
 
 ## Придумка названий
-№ | Название | Объяснение | Скрин
- --- | --- | ---| ---
-1 | Active Promoter | </li><li> Попадает на интрон или экзон </li> | ![Image](/data/state_1.png)
-2 | Weak enhancer/Weak transcribed | </li><li> Чаще всего находятся на RefSeqTES, RefSeqGene, а также на ядерной ламине </li><li> Попадает на интрон </li> | ![Image](/data/state_2.png)
-3 | Strong enhancer/Transcriptional elogation | </li><li> Чаще всего находятся на RefSeqTES и RefSeqTSS2Kb, а также на ядерной ламине </li><li> Попадает на интрон </li> | ![Image](/data/state_3.png)
-4 | Active Promoter | </li><li> Чаще всего находятся на CpGIslands, RefSeqTES </li><li> Попадает на интрон или экзон </li> | ![Image](/data/state_4.png)
-5 | Active Promoter | </li><li> Чаще всего находятся на RefSeqTES и RefSeqTSS2Kb, а также на RefSeqGene </li><li> Попадает на интрон или экзон </li> | ![Image](/data/state_5.png)
-6 | Weak enhancer | </li><li> Чаще всего находятся на RefSeqGene и RefSeqTES </li><li> Попадает на интрон </li> | ![Image](/data/state_6.png)
-7 | Weak enhancer | <ul><li> Чаще всего находятся на RefSeqTES </li><li> Попадает на интрон </li> | ![Image](/data/state_7.png)
-8 | Weak enhancer | <ul><li> Чаще всего находятся на RefSeqTES, а также на ядерной ламине, но реже </li><li> Попадает на интрон </li> | ![Image](/data/state_8.png)
-9 | Weak enhancer | </li><li> Чаще всего находятся на RefSeqGene, а также RefSeqTES и RefSeqExon, но реже </li><li> Попадает на интрон </li> | ![Image](/data/state_9.png)
-10 | Weak transcribed | </li><li> Чаще всего находятся на RefSeqGene </li><li> Попадает на экзон или интрон </li> | ![Image](/data/state_10.png)
-11 | Weak transcribed | </li><li> Чаще всего находятся на RefSeqGene </li><li> Попадает на экзон или интрон </li> | ![Image](/data/state_11.png)
-12 | Weak transcribed | <ul><li> Чаще всего находятся на RefSeqGene </li><li> Попадает на экзон или интрон </li> | ![Image](/data/state_12.png)
-13 | Repressed | <ul><li> Чаще всего находятся на ядерной ламине, то есть попадает на участок репрессированного гетерохроматима </li><li> Не попадает на ген </li> | ![Image](/data/state_13.png)
-14 | Heterochromatin | </li><li> Чаще всего находятся на ядерной ламине, то есть попадает на участок репрессированного гетерохроматима </li><li> Не попадает на ген </li> | ![Image](/data/state_14.png)
-15 | Heterochromatin | </li><li> Чаще всего находятся на ядерной ламине, то есть попадает на участок репрессированного гетерохроматима </li><li> Не попадает на ген </li> | ![Image](/data/state_15.png)
+### Немного скринов перед названиями
+![Image](/data/state_9.png) 
+![Image](/data/state_2.png)
+![Image](/data/state_6.png)
+№ | Название | Объяснение
+ --- | --- | ---
+1 | Active Promoter | </li><li> Попадает на интрон или экзон </li> 
+2 | Weak enhancer/Weak transcribed | </li><li> Чаще всего находятся на RefSeqTES, RefSeqGene, а также на ядерной ламине </li><li> Попадает на интрон </li> 
+3 | Strong enhancer/Transcriptional elogation | </li><li> Чаще всего находятся на RefSeqTES и RefSeqTSS2Kb, а также на ядерной ламине </li><li> Попадает на интрон </li> 
+4 | Active Promoter | </li><li> Чаще всего находятся на CpGIslands, RefSeqTES </li><li> Попадает на интрон или экзон </li> 
+5 | Active Promoter | </li><li> Чаще всего находятся на RefSeqTES и RefSeqTSS2Kb, а также на RefSeqGene </li><li> Попадает на интрон или экзон </li> 
+6 | Weak enhancer | </li><li> Чаще всего находятся на RefSeqGene и RefSeqTES </li><li> Попадает на интрон </li> 
+7 | Weak enhancer | <ul><li> Чаще всего находятся на RefSeqTES </li><li> Попадает на интрон </li> 
+8 | Weak enhancer | <ul><li> Чаще всего находятся на RefSeqTES, а также на ядерной ламине, но реже </li><li> Попадает на интрон </li> 
+9 | Weak enhancer | </li><li> Чаще всего находятся на RefSeqGene, а также RefSeqTES и RefSeqExon, но реже </li><li> Попадает на интрон </li> 
+10 | Weak transcribed | </li><li> Чаще всего находятся на RefSeqGene </li><li> Попадает на экзон или интрон </li> 
+11 | Weak transcribed | </li><li> Чаще всего находятся на RefSeqGene </li><li> Попадает на экзон или интрон </li> 
+12 | Weak transcribed | <ul><li> Чаще всего находятся на RefSeqGene </li><li> Попадает на экзон или интрон </li> 
+13 | Repressed | <ul><li> Чаще всего находятся на ядерной ламине, то есть попадает на участок репрессированного гетерохроматима </li><li> Не попадает на ген </li> 
+14 | Heterochromatin | </li><li> Чаще всего находятся на ядерной ламине, то есть попадает на участок репрессированного гетерохроматима </li><li> Не попадает на ген </li> 
+15 | Heterochromatin | </li><li> Чаще всего находятся на ядерной ламине, то есть попадает на участок репрессированного гетерохроматима </li><li> Не попадает на ген </li> 
 
